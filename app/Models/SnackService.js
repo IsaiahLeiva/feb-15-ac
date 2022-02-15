@@ -1,4 +1,6 @@
-
+function __drawMoney() {
+    console.log('Bought Money');
+}
 
 
 export class Snack {
@@ -7,3 +9,4 @@ export class Snack {
         this.price = price;
     }
 }
+

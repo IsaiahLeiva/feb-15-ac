@@ -6,3 +6,7 @@ export class SnackController {
     }
 
 }
+
+function __drawMoney() {
+    console.log('Bought Money');
+}
