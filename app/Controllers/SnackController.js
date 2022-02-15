@@ -8,7 +8,8 @@ export class SnackController {
 }
 
 function __drawInsertQuarter() {
-
+    console.log('inserted quarter');
+    const quarter = SnackProxyState.currency;
 }
 
 function drawTotalMoney() {

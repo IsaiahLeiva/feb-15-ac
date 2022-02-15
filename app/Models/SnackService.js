@@ -10,3 +10,4 @@ export class Snack {
     }
 }
 
+export const = SnackProxyState.currency()

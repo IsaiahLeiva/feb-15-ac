@@ -9,3 +9,5 @@ class AppState extends EventEmitter {
         new Snack('Coke', 2.00)
     ]
 }
+
+const currency = 0.25
