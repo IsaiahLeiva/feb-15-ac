@@ -7,6 +7,8 @@ class AppState extends EventEmitter {
   values = []
 }
 
+//NOTE: make the snack array above
+
 export const ProxyState = new Proxy(new AppState(), {
   get(target, prop) {
     isValidProp(target, prop)
