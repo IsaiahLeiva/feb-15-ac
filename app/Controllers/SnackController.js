@@ -1,9 +1,8 @@
 
-
-
 export class SnackController {
-    constructor() {
-
+    constructor(name, price) {
+        this.name = name;
+        this.price = price;
     }
 
 }
