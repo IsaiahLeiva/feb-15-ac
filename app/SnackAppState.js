@@ -1,5 +1,4 @@
 
-
 //NOTE here's my snack array:
 
 Snacks = [
