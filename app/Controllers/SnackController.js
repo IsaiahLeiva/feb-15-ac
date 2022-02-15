@@ -7,6 +7,14 @@ export class SnackController {
 
 }
 
-function __drawMoney() {
-    console.log('Bought Money');
+function __drawInsertQuarter() {
+
+}
+
+function drawTotalMoney() {
+
+}
+
+function buySnack() {
+
 }
