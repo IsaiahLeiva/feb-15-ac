@@ -3,12 +3,18 @@ import { EventEmitter } from "./Utils/EventEmitter.js"
 import { isValidProp } from "./Utils/isValidProp.js"
 
 class AppState extends EventEmitter {
-  /** @type {import('./Models/Value').Value[]} */
-  values = []
+  // /** @type {import('./Models/Value').Value[]} */
+  // values = [
+  //   quarter = 0.25
+  // ]
+  money = 0
   snacks = [
-    // TODO snacks go here
+    new Snack('Snickers', 1.50),
+    new Snack('Coke', 2.00),
+    new Snack('Doritos', 1.50)
   ]
 }
+
 
 //NOTE: make the snack array above
 
