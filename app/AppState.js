@@ -1,10 +1,13 @@
-import { Snack } from "./Models/Value.js"
+import { Snack } from "./Models/SnackModel.js"
 import { EventEmitter } from "./Utils/EventEmitter.js"
 import { isValidProp } from "./Utils/isValidProp.js"
 
 class AppState extends EventEmitter {
   /** @type {import('./Models/Value').Value[]} */
   values = []
+  snacks = [
+    // TODO snacks go here
+  ]
 }
 
 //NOTE: make the snack array above

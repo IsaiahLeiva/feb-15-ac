@@ -1,16 +1,17 @@
 
 export class SnackController {
-    constructor(name, price) {
-        this.name = name;
-        this.price = price;
+    // NOTE ONLY THE THINGS BETWEEN THESE NOTES IS WHAT GETS EXPOSED TO THE USER
+
+    insertQuarter() {
+        console.log('inserted quarter');
+        // TODO call method in service to add a quarter
     }
 
+
+
+    // NOTE
 }
 
-function __drawInsertQuarter() {
-    console.log('inserted quarter');
-    const quarter = SnackProxyState.currency;
-}
 
 function drawTotalMoney() {
 
